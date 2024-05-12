@@ -1,6 +1,6 @@
 # Documentation Assistant Bot
 
-## Uses RAG technique to expand the memmory of an LLM by ingesting it with additional documents.
+## Uses RAG technique to expand the memory of an LLM by ingesting it with additional documents.
 
 ## Tech Used: Langchin, RAG ingestion and Retrieval, PineCone Vector db Memory Chat and streamlit for frontend side.
 
