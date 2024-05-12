@@ -1,5 +1,7 @@
 from dotenv import load_dotenv
 
+from consts import INDEX_NAME
+
 load_dotenv()
 
 
@@ -8,8 +10,6 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_pinecone import PineconeVectorStore
 from langchain_openai import OpenAIEmbeddings
 
-
-INDEX_NAME = "langchain-doc-index"
 
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 
